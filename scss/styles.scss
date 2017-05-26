@@ -79,3 +79,12 @@ section h1 {
         @include clearfix;
     }
 }
+
+#projects li {
+
+    @include grid(2, 6%);
+
+    img {
+        width: 100%;
+    }
+}

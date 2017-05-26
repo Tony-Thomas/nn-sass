@@ -159,3 +159,18 @@ section h1 {
   display: block;
   clear: both;
 }
+
+#projects li {
+  float: left;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  width: 47%;
+}
+
+#projects li:nth-child(2n) {
+  margin-right: 0;
+}
+
+#projects li img {
+  width: 100%;
+}
